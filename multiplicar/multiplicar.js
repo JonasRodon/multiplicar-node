@@ -1,6 +1,6 @@
 // requireds
 const fs = require('fs')
-const colors = require('colors')
+const colors = require('colors')// eslint-disable-line
 
 let listarTabla = (base, limite = 10) => {
   console.log('======================'.green)
